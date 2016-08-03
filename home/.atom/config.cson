@@ -1,0 +1,23 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    automaticallyUpdate: false
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "mononoki"
+    fontSize: 9
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  welcome:
+    showOnStartup: false
