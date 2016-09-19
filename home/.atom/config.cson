@@ -1,14 +1,13 @@
 "*":
   core:
     autoHideMenuBar: true
-    automaticallyUpdate: false
     themes: [
-      "one-dark-ui"
+      "isotope-ui"
       "base16-tomorrow-dark-theme"
     ]
   editor:
     backUpBeforeSaving: true
-    fontFamily: "mononoki"
+    fontFamily: "Fira Code"
     fontSize: 9
     showIndentGuide: true
     showInvisibles: true
@@ -17,7 +16,6 @@
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
-  "vim-mode":
-    useClipboardAsDefaultRegister: true
+  "vim-mode": {}
   welcome:
     showOnStartup: false
