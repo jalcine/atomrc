@@ -1,10 +1,12 @@
 "*":
   core:
     autoHideMenuBar: true
+    telemetryConsent: "no"
     themes: [
       "isotope-ui"
       "base16-tomorrow-dark-theme"
     ]
+    useCustomTitleBar: true
   editor:
     backUpBeforeSaving: true
     fontFamily: "Fira Code"
@@ -12,6 +14,8 @@
     showIndentGuide: true
     showInvisibles: true
     tabType: "soft"
+  "exception-reporting":
+    userId: "bf5d6ffe-370c-9529-d5c5-5c2964168685"
   minimap:
     plugins:
       "git-diff": true
